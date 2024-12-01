@@ -1,0 +1,35 @@
+/* 2 TYPE OF ONLINE FONT ATTACHMENT LINK 👇*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+/* text properties */
+#main-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: crimson;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.para {
+  font-family: "Montserrat", sans-serif;
+  color: rebeccapurple;
+  font-weight: 500;
+  text-indent: 100px;
+  word-spacing: 10PX;
+}
+
+#que {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: darkblue;
+}
+
+.para-2 {
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(165, 6, 32);
+  text-decoration: underline;
+  line-height: 1.5;
+}

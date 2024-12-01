@@ -1,0 +1,108 @@
+.box-1 {
+  height: 200px;
+  width: 200px;
+  background-color: #ff5733;
+  color: black;
+  display: block;
+  border: 4px solid #003366;
+  margin: 10px auto;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.box-2 {
+  height: 200px;
+  width: 200px;
+  background-color: #33ff57;
+  color: black;
+  display: inline-block;
+  border: 2px dotted #006600;
+  margin: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+}
+
+.box-3 {
+  height: 200px;
+  width: 200px;
+  background-color: #3357ff;
+  color: black;
+  display: inline;
+  border: 3px double #990000;
+  margin: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+}
+
+.box-4 {
+  height: 200px;
+  width: 200px;
+  background-color: #ff33a1;
+  color: black;
+  border: 4px dashed #cc6600;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+}
+
+.box-5 {
+  height: 200px;
+  width: 200px;
+  background-color: #ffd733;
+  color: black;
+  display: inline-block;
+  border: 3px groove #800080;
+  margin: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+}
+
+.box-6 {
+  height: 200px;
+  width: 200px;
+  background-color: #33ffd7;
+  color: black;
+  border: 4px inset #666666;
+  display: inline;
+  margin: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+}
+
+.box-7 {
+  height: 200px;
+  width: 200px;
+  background-color: #a833ff;
+  color: black;
+  border: 5px solid #ff66b3;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+}

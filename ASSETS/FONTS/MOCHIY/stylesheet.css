@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mochiy Pop One';
+    src: url('MochiyPopOne-Regular.woff2') format('woff2'),
+        url('MochiyPopOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

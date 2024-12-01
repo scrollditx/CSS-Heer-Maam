@@ -1,0 +1,67 @@
+<!--! Introduction Of CSS & Text Properties -->
+
+<!--? Lecture 10.1 covers:
+Inline CSS ✅, Internal CSS✅✅, External CSS✅
+@Media✅, @Keyframes✅ 
+Detailed explanations of:
+<Tag>✅, .Class✅, #Id✅
+The use of Inline CSS demonstrated with examples of various elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to CSS</title>
+    <!--* USE OF INTERNAL CSS👇 -->
+    <style>
+      .para {
+        color: blue;
+      }
+
+      #main-heading {
+        color: rebeccapurple;
+      }
+    </style>
+    <link rel="stylesheet" href="/CSS/LEC1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!--? USE OF ID -->
+        <h1 id="main-heading">About CSS:-</h1>
+      </nav>
+    </header>
+    <main>
+      <!--* USE OF INLINE CSS 👇-->
+      <p style="color: red">
+        CSS is the language we use to style a Web page.CSS stands for Cascading
+        Style Sheets. CSS describes how HTML elements are to be displayed on
+        screen, paper, or in other media CSS saves a lot of work. It can control
+        the layout of multiple web pages all at once External stylesheets are
+        stored in CSS files.
+      </p>
+      <!--? USE OF CLASS👇-->
+      <p class="para">
+        CSS is the language we use to style a Web page.CSS stands for Cascading
+        Style Sheets. CSS describes how HTML elements are to be displayed on
+        screen, paper, or in other media CSS saves a lot of work. It can control
+        the layout of multiple web pages all at once External stylesheets are
+        stored in CSS files.
+      </p>
+    </main>
+  </body>
+</html>
+
+<!--! QUESTIONS -->
+
+<!--! WHAT IS @media? -->
+<!--? The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or more media queries.-->
+
+<!--! WHAT IS @KET FRAMES? -->
+<!--? The @keyframes CSS at-rule is used to define a set of keyframes that can be used with the animation property to create animations.-->
+
+<!--! CSS specificity rule -->
+<!--? 1) Inline style: Inline style has highest priority among all. -->
+<!--? 2) Id Selector: It has second highest priority.  -->
+<!--? 3) Classes, pseudo-classes and attributes: These selectors has lowest priority. -->
