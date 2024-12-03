@@ -44,18 +44,18 @@ p {
 }
 
 /* Specific styles for each section */
-.web-design {
+.card-web-design {
   background: linear-gradient(135deg, #7ed957, #68a547);
 }
 
-.web-development {
+.card-web-development {
   background: linear-gradient(135deg, #33b5e5, #147aa6);
 }
 
-.responsive-design {
+.card-responsive-design {
   background: linear-gradient(135deg, #53d4c9, #0b8282); 
 }
 
-.brand-building {
+.card-brand-building {
   background: linear-gradient(135deg, #d84f9a, #872d6b); 
 }
