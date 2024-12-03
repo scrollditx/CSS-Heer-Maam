@@ -1,54 +1,61 @@
 body {
-  background-color: whitesmoke;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 80vh;
 }
 
 .container {
-  margin-top: 20px;
+  margin-top: 50px; 
 }
 
 .card {
-  display: inline-block;
   width: 220px;
-  padding: 15px;
-  margin: 10px;
-  color: white;
-  border-radius: 15px;
+  height: 250px;
+  background: #ecf0f3;
+  border-radius: 20px;
+  box-shadow: 9px 9px 16px #b1b1b1, -9px -9px 16px #ffffff;
   text-align: center;
-  position: relative;
+  padding: 20px;
+  margin: 10px; 
+  margin-top: 125px;
+  display: inline-block; 
   vertical-align: top;
 }
 
-.web-design {
-  background: linear-gradient(145deg, #4caf50, #8bc34a);
-}
-
-.web-development {
-  background: linear-gradient(145deg, #009688, #4db6ac);
-}
-
-.responsive-design {
-  background: linear-gradient(145deg, #00bcd4, #4fc3f7);
-}
-
-.brand-building {
-  background: linear-gradient(145deg, #e91e63, #ec407a);
-}
 
 .icon {
-  font-size: 40px;
-  margin-bottom: 10px;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
+  color: #333;
   margin: 10px 0;
+  background-color: white;
 }
 
 p {
   font-size: 14px;
-  line-height: 1.5;
+  color: black;
+  line-height: 1.6;
+}
+
+/* Specific styles for each section */
+.web-design {
+  background: linear-gradient(135deg, #7ed957, #68a547);
+}
+
+.web-development {
+  background: linear-gradient(135deg, #33b5e5, #147aa6);
+}
+
+.responsive-design {
+  background: linear-gradient(135deg, #53d4c9, #0b8282); 
+}
+
+.brand-building {
+  background: linear-gradient(135deg, #d84f9a, #872d6b); 
 }
