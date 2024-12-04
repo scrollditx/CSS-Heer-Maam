@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 .empty{
-    background-image: url(../ASSETS/IMAGES/BW.png);
+    background-image: url(/ASSETS/IMAGES/BW.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 .fill{
-    background-image: url(../ASSETS/IMAGES/COLOR.png);
+    background-image: url(/ASSETS/IMAGES/COLOR.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;

@@ -1,48 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: whitesmoke;
-    text-align: center;
+body {
+  background-color: whitesmoke;
 }
 
-
-h1{
-    font-weight: 600;
-    font-size: 30px;
-    text-decoration: underline;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1 {
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
-.container{
-    width:1140;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 150px;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.chess-board{
-    margin: 50px auto;
-    max-width: 324px;
-    width: 100%; 
-    height: 324px;
-    text-align: center;
-    position: relative; 
-    border: 2px solid #000;
+.chess-board {
+  margin: 0 auto;
+  width: 550px;
+  height: 550px;
+  border: 8px inset black;
+  margin-top: 20px;
 }
 
-.black{
-    background-color: #F5E1A4;
-    width: 40px;
-    height: 40px;
-    float: left;
+.black {
+  background-color: #292154;
+  width: calc(100% - 87.5%);
+  height: calc(100% - 87.5%);
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  line-height: 65px;
 }
-.white{
-    background-color: #4A2C2A;;
-    width: 40px;
-    height: 40px;
-    float: left;
+.white {
+  background-color: #B53E69;
+  width: calc(100% - 87.5%);
+  height: calc(100% - 87.5%);
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  line-height: 65px;
+}
+.clear {
+  clear: both;
 }
